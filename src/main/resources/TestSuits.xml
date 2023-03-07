@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTests" verbose="1" >
+
+  <test name="Inputs" >
+    <classes>
+       <class name="com.herokuapp.tests.InputsTest" />
+    </classes>
+  </test>
+
+  <test name="KeyPresses">
+    <classes>
+      <class name="com.herokuapp.tests.KeyPressesTest"/>
+    </classes>
+  </test>
+
+  <test name="NotificationMessageRendered">
+      <classes>
+        <class name="com.herokuapp.tests.NotificationMessageRenderedTest"/>
+      </classes>
+    </test>
+
+</suite>
